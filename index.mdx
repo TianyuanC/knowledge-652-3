@@ -9,9 +9,130 @@ export { future as theme } from "mdx-deck/themes";
 
 ---
 
-# What's New
+### my 2 cents
 
--   Our New Blog 🙌
+-   Meeting
+-   Reflect
+
+---
+
+# Our New [Blog](https://blog-session-652.netlify.com/) 🙌
+
+-   Why? lol
+-   [Gatsby](https://www.gatsbyjs.org/)
+-   [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen)
+
+---
+
+## MyReads
+
+-   Again? lol
+-   Anti-Patterns
+-   Refactoring
+
+---
+
+## Redux
+
+-   [Flux](https://github.com/facebook/flux)
+-   [Three Principle](https://redux.js.org/introduction/three-principles)
+
+11:08 MVC
+12:22 Flux
+
+---
+
+## SPA
+
+Single page application
+
+-   [create-react-app](https://github.com/facebook/create-react-app)
+-   yarn eject
+-   [Visualize](https://npm.anvaka.com/#/view/2d/react-scripts)
+
+---
+
+### Maybe there is a problem
+
+![spa vs ssr](img/spa_ssr.png)
+
+[TTI](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive)  
+[source](https://alistapart.com/article/responsible-javascript-part-1#section4)
+
+---
+
+## SSR
+
+Server side rendering
+
+-   react-router
+-   Next.js
+
+---
+
+## ES6 Challenge
+
+---
+
+import { CodeSurfer } from "mdx-deck-code-surfer";
+import Code from "mdx-code";
+
+<CodeSurfer
+    title="Tags System"
+    code={require("!raw-loader!./code/challenge.js")}
+    lang="javascript"
+    dark={false}
+    steps={[
+        { notes: "input and outputs" },
+        { range: [1, 18], notes: "input" },
+        { range: [21, 30], notes: "index: Tools" },
+        { range: [31, 44], notes: "index: MyReads" },
+        { range: [45, 54], notes: "index: Project" }
+    ]}
+/>
+
+---
+
+export default Code;
+
+```javascript implement tag system
+const reactBlogRoutes = {
+    "explore-books-api-postman": {
+        title: "Explore Books API with Postman",
+        tags: ["Tools", "MyReads"]
+    },
+    "how-to-use-react-devtool": {
+        title: "How to use React Dev Tool",
+        tags: ["Tools"]
+    },
+    "setting-up-myreads": {
+        title: "Setting up MyReads",
+        tags: ["MyReads", "Project"]
+    },
+    "myreads-mentor-edition": {
+        title: "Ryan's Reads",
+        tags: ["Project", "MyReads"]
+    }
+};
+```
+
+---
+
+<CodeSurfer
+    title="Tags System Solution"
+    code={require("!raw-loader!./code/solution.js")}
+    lang="javascript"
+    dark={false}
+    steps={[
+        { notes: "Let's review" },
+        { lines: [1], notes: "object proptery to array" },
+        { lines: [2], notes: "reduce" },
+        { lines: [3], notes: "destructuring" },
+        { lines: [8], notes: "shorthand property names" },
+        { lines: [10], notes: "super important lol" },
+        { lines: [11], notes: "inintialize, start with {}" }
+    ]}
+/>
 
 ---
 
