@@ -14,3 +14,4 @@ It may become the topics of our next knowledge webinar
 ## Resources
 
 [Slides](https://tianyuanc.github.io/knowledge-652-3/#0)
+[Video](https://tianyuanc.github.io/knowledge-652-3/#18)
